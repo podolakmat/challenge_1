@@ -253,29 +253,45 @@ footer {
 }
 
 @media screen and (max-width: 689px) {
+.submit-button {
+    font-size: 12px;      
+}
+    
 .all-form{
     display: flex;
     flex-direction: column;
-    width: 90%; 
-    align-content: center;}
+    width: 100%; 
+    align-content: center;
+   }
     
-.left-column, .right-column, .column {
-    width: 90%; 
-    float:none;
+.left-column, .right-column {
+    width: 90%;
     padding: 0;
-    margin-left: 0;
-    
-    }
+    margin: 0;
+    margin: 0 auto;
+}
     
 .container {
-    width: 90%; }
-form { 
-    width: 100%;
+    width: 80%;
+    padding: 0;
     margin: 0;
-    padding: 0;}
+    margin: 0 auto;}
+   
+    
+form { 
+    width: 100%;}
 header img {
-    width: 80%; } }
+    width: 80%; } 
 footer img {
-   width: 80%;
+    width: 80%;
+    text-align:center;}
 }
 
+@media screen and (max-width: 355px) {
+input,select {
+    font-size: 10px;
+    }
+.remember_checkbox {
+    font-size: 13px;        
+    }
+}
