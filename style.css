@@ -69,16 +69,19 @@ form {
 }
 
 input,select {
+    display: inline-block;
+    box-sizing: border-box;
     margin-left: 5%; 
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
     height: 40px;
     border-radius: 3px;
     border: 1px solid #c6c6c6;
     transition: .3s;
-    padding-left: 10%;
+    padding-left: 50px;
     background-color: #f3f3f3;
 }
+
 
 select {
     width: 90%;
@@ -93,6 +96,7 @@ select {
     top: 25px;
     left: 5%;
     padding: 9px 8px;
+    padding-right: 2%;
     border-right: 1px solid #c6c6c6;
     color: #c6c6c6;
 }
@@ -252,7 +256,7 @@ footer {
 .all-form{
     display: flex;
     flex-direction: column;
-    width: 100%; 
+    width: 90%; 
     align-content: center;}
     
 .left-column, .right-column, .column {
