@@ -297,7 +297,7 @@ footer img {
 input,select {
     font-size: 10px;
     }
-.remember_checkbox {
-    font-size: 13px;        
+.remember_checkbox, .send_email-checkbox, .sign_up-checkbox {
+    font-size: 10px;        
     }
 }
