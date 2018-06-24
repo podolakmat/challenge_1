@@ -293,7 +293,7 @@ footer img {
     margin-bottom: 20px;}
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 360px) {
 input,select {
     font-size: 10px;
     }
